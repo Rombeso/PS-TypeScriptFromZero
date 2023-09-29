@@ -1,0 +1,27 @@
+{
+  "name": "ps-typescriptfromzero",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "основные типы.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rombeso/PS-TypeScriptFromZero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rombeso/PS-TypeScriptFromZero/issues"
+  },
+  "homepage": "https://github.com/Rombeso/PS-TypeScriptFromZero#readme",
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

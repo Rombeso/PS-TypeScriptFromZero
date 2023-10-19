@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": [ "es2015", "dom" ],
+    "lib": [ "es2017", "dom" ],
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     /* Projects */

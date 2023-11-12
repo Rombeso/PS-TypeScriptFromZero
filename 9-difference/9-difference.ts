@@ -21,7 +21,7 @@ function difference<A extends {}, B extends {}>(obj1: A, obj2: B): TDifference2<
     let res: TDifference2<A, B> = obj1 as TDifference2<A, B>
     for(let key in obj2) {
         if(key in obj1) {
-            delete res[key]
+            delete res[key as Exclude<keyof A, keyof B>]
         }
     }
     return res
